@@ -1,8 +1,26 @@
+
+Name: luid
+Address: jdd3
+Parent's Phone Number: 3933
+Student's hours: 9
+
 Name: luis
-Address: '33 dkdkdk
-Parent's Phone Number: 2929292
+Address: 389383 djd
+Parent's Phone Number: 39393
+Student's hours: 9.0
 
 Name: me
-Address: ksks
-Parent's Phone Number: 2292929292
+Address: 292 djdjd
+Parent's Phone Number: 2929229
+Student's hours: 8.0
+
+Name: luis
+Address: 292 kdkdkd
+Parent's Phone Number: 929292
+Student's hours: 9.0
+
+Name: me
+Address: jssjs
+Parent's Phone Number: 29292
+Student's hours: 8.0
 
