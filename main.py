@@ -1,7 +1,10 @@
 # author: LM (AMDG) 5/3/22
 # file manager for student hours
-
 # Asks user for their students' info and then puts it into a txt file
+
+from os import name
+
+
 def student_info():
     name = input("Please enter the student's name: ")
     address = input("Please enter the student's address: ")
@@ -18,6 +21,11 @@ def student_info():
         infile.write("\n")
         infile.write("\n")
     return name, address, phone, hours
+
+def dictionary_of_students(name, hours):
+    if student_info(name) and student_info(hours) == ' ':
+        dict_students = {name: hours}
+    print(dict_students)
 
 # asks user if hey are  goint to add another person
 def repeat_student_info():
@@ -37,6 +45,7 @@ while True:
     repeat_student_info()
     if repeat_student_info() == 'N':
         break
+    break
 
 
 

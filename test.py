@@ -1,9 +1,15 @@
-# Asks user if they want to open the file to access hours 
-
-startofprogram = input("Are you trying to access your student's hours file? if Yes enter Y if no enter N: ").capitalize()
-if startofprogram == 'Y':
-    print("Place holder")
-elif startofprogram == 'N':
-    print("Place holder #2")
-else:
-    print("Enter a Y or N")
+#adds students to dictionary
+dictionary = {}
+while True: 
+    new_person = input("Will you be adding more people? If yes enter y if no enter n: ").capitalize()
+    if new_person == 'Y':
+        def dictionary_student():
+            global dictionary
+            hours = int(input("How many hours have been completed? "))
+            name = input("Enter your name: ")
+            newdictionary = {name: hours}
+            dictionary.update(newdictionary)
+            print(dictionary)
+        dictionary_student()
+    else:
+        break
