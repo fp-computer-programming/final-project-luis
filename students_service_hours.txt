@@ -1,10 +1,1 @@
-Name: name
-Address: sddd
-Parent's Phone Number: 39393
-Student's hours: 0.0
-
-Name: name
-Address: sjsj
-Parent's Phone Number: 39393
-Student's hours: 8.0
 

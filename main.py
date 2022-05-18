@@ -2,9 +2,6 @@
 # file manager for student hours
 # Asks user for their students' info and then puts it into a txt file
 
-from os import name
-
-
 def student_info():
     name = input("Please enter the student's name: ")
     address = input("Please enter the student's address: ")
