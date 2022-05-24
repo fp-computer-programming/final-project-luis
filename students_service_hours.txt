@@ -1,2 +1,15 @@
+Name: name
+Address: addy
+Parent's Phone Number: 393933
+Student's hours: 30.0
 
+Name: me
+Address: 44 lenox ave
+Parent's Phone Number: 475-422-2427
+Student's hours: 9.0
+
+Name: name
+Address: add
+Parent's Phone Number: 30303
+Student's hours: 2.0
 

@@ -1,3 +1,5 @@
+from main import student_info 
+from main import repeat_student_info
 #adds students to dictionary
 # This is the dictionary where students will be the keys and their hours will be values
 dictionary = {}
@@ -40,8 +42,8 @@ while True:
 if new_dict == {}:
     print("All students have completed their hours!!!")
 else:
-    new_question = input("Do you want to see the names of students and their hours? Enter Y for yes or N if no: ")
-    if new_question == "y":
+    new_question = input("Do you want to see the names of students who have not completed their hours and their hours? Enter Y for yes or N if no: ").capitalize()
+    if new_question == "Y":
         print(new_dict)
     else:
         print("Have a good rest of the day")
