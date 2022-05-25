@@ -38,7 +38,7 @@ def new_dictionary():
     global new_dict
     global keys
     global values
-    # using enumerate to go throught the lists and usinf the indexes to append to the 'new_dict'
+    # using enumerate to go throught the lists and using the indexes to append to the 'new_dict'
     for index, value in enumerate(keys and values):
         if value < 20:
             new_dict.update({keys[index]: values[index]})
@@ -77,3 +77,25 @@ else:
         print(new_dict)
     else:
         print("Have a good rest of the day")
+
+def updating_student():
+    global dictionary
+
+    reupdate = input("Do you want to update a students hours?: ").capitalize()
+    if reupdate == 'Y':
+        updatestudent = input("enter the students name: ")
+        if updatestudent in dictionary:
+            new_hours = int(input(" Enter the students hours: "))
+            dictionary[updatestudent] = new_hours
+            with open('students_service_hours.txt', 'r') as infile:
+                for value in infile:
+                    if value == "Student's hours:":
+                        with open('students_service_hours.txt', 'r') as infile:
+                            infile.write(new_hours)
+    elif reupdate =='N':
+        print("Okay, thanks")
+    return
+
+while updating_student() =='Y':
+    updating_student()
+print(dictionary)
